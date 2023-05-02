@@ -34,7 +34,7 @@ $ npm run dev
 - Beautiful Animations
 - Product
 - Pricing
-- Testimoni
+- Testimonial
 - Contact
 
 <br/>
