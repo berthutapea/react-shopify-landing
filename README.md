@@ -30,12 +30,12 @@ $ npm run dev
 
 ##  Key Features
 
-- User registration and login
-- Select the type of question and the difficulty level of the question
-- Juis time is running and after the time is up it stops automatically
-- The final results of the answers answered will be shown
-- Incorrect and correct answer results will be displayed
-- Responsive Design
+- Mobile Responsive
+- Beautiful Animations
+- Product
+- Pricing
+- Testimoni
+- Contact
 
 <br/>
 
