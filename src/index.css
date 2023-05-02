@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+span,
+a,
+button {
+  font-family: inherit;
+}
+
+/* navbar */
+.open span:nth-child(1) {
+  transform: rotate(45deg) translate(6.5px, 6.5px);
+}
+
+.open span:nth-child(2) {
+  width: 0;
+  opacity: 0;
+}
+
+.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6.5px, -6.5px);
+}
+
+.navlink {
+  @apply cursor-pointer hover:text-black-100 transition-all duration-200 ease-in;
+}
+
+.active-navlink {
+  @apply text-black-100;
+}
+
+.navbar-dropdown {
+  height: calc(100vh - 100%);
+}
+
+.chair-card {
+  box-shadow: 0px 2.19073px 13.1444px rgba(118, 81, 13, 0.12);
+}
+
+.sales-card {
+  box-shadow: 0px 3.83379px 13.1444px rgba(138, 107, 21, 0.07);
+}
+
+/* Features */
+.feature-item:nth-of-type(1) div:first-child {
+  @apply bg-tertiary-200;
+}
+
+.feature-item:nth-of-type(2) div:first-child {
+  @apply bg-primary-200;
+}
+
+.feature-item:nth-of-type(3) div:first-child {
+  @apply bg-secondary-200;
+}
+
+.feature-item:nth-of-type(4) div:first-child {
+  @apply bg-tertiary-200;
+}
+
+.feature-item:nth-of-type(5) div:first-child {
+  @apply bg-primary-200;
+}
+
+.feature-item:nth-of-type(6) div:first-child {
+  @apply bg-secondary-200;
+}
+
+/* Card */
+.primary-card {
+  box-shadow: 0px 7.28827px 31.2354px rgba(182, 161, 110, 0.19);
+
+  @media screen and (min-width: 768px) {
+    box-shadow: 0px 14px 60px rgba(182, 161, 110, 0.19);
+  }
+}
+
+.mini-modal {
+  box-shadow: -5.2059px 2.08236px 36.4413px rgba(150, 126, 67, 0.08);
+
+  @media screen and (min-width: 768px) {
+    box-shadow: -10px 4px 70px rgba(150, 126, 67, 0.08);
+  }
+}
+
+/* Testimonial */
+.testimonial-button {
+  @apply h-10 w-10 bg-primary-100 rounded-full border border-primary-100 flex items-center justify-center transition-all duration-200 ease-in disabled:border-black-400 disabled:bg-transparent;
+}
+
+.testimonial-button.prev:disabled img {
+  content: url("/arrow-left-disabled.svg");
+}
+
+.testimonial-button.next:disabled img {
+  content: url("/arrow-right-disabled.svg");
+}
+
+/* Footer */
+.footer-link {
+  @apply hover:text-white transition-all duration-200 ease-in;
+}
+
+.footer-icon {
+  @apply w-8 h-auto object-cover opacity-70 hover:opacity-100 transition-all duration-200 ease-in;
+}
