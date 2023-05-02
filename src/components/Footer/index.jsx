@@ -165,24 +165,24 @@ export default function Footer() {
           </div>
           <div className="text-center lg:col-span-3 md:flex justify-between items-center">
             <div className="flex items-center justify-center gap-4 mb-4 order-2">
-              <a href="https://instagram.com/ragilsg_164" target="_blank">
+              <a href="https://www.instagram.com/bethup97/?next=%2F" target="_blank">
                 <img
                   className="footer-icon"
                   src="/instagram.svg"
                   alt="instagram"
                 />
               </a>
-              <a href="https://github.com/pujiragil" target="_blank">
+              <a href="https://github.com/berthutapea" target="_blank">
                 <img className="footer-icon" src="/github.svg" alt="github" />
               </a>
-              <a href="https://t.me/Ragilsg" target="_blank">
+              <a href="https://t.me/bethup97" target="_blank">
                 <img
                   className="footer-icon"
                   src="/telegram.svg"
                   alt="telegram"
                 />
               </a>
-              <a href="https://linkedin.com/in/pujiragil" target="_blank">
+              <a href="https://www.linkedin.com/in/gilberthutapea/" target="_blank">
                 <img
                   className="footer-icon"
                   src="/linkedin.svg"
@@ -194,10 +194,10 @@ export default function Footer() {
               © 2022 Shopify by{" "}
               <a
                 className="italic underline"
-                href="https://instagram.com/ragilsg_164"
+                href="https://www.berthutapea.com/"
                 target="_blank"
               >
-                Puji Ragil
+                Gilbert Hutapea
               </a>
             </p>
           </div>
