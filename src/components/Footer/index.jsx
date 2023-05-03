@@ -194,7 +194,7 @@ export default function Footer() {
               © 2022 Shopify by{" "}
               <a
                 className="italic underline"
-                href="https://www.berthutapea.com/"
+                href="https://berthutapea.vercel.app/"
                 target="_blank"
               >
                 Gilbert Hutapea
